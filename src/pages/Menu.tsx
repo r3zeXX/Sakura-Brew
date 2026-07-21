@@ -53,7 +53,7 @@ const Menu = () => {
         {/* Menu Grid */}
         <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <AnimatePresence>
-            {filteredItems.map((item, idx) => (
+            {filteredItems.map((item, _) => (
               <motion.div
                 key={item.name}
                 layout
