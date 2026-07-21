@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { Send, Loader2, RefreshCw, Trash2, MessageSquare, Plus, Edit2, Check, X, Search, Menu } from 'lucide-react';
+import { Send, Loader2, Trash2, MessageSquare, Plus, Edit2, Check, X, Search, Menu } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { useAppStore } from '../store/useAppStore';
